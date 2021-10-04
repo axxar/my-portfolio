@@ -2,6 +2,11 @@
 <html lang="en">
   <head>
     <!-- head content skipped -->
+    <script>
+      function goToByScroll(id){
+          $('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+      }
+    </script>
   </head>
   <body>
 

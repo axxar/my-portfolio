@@ -1,15 +1,17 @@
 import React from "react";
+import { RoughNotation } from "react-rough-notation";
 
 export default function About() {
   return (
     <section id="about">
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+          <RoughNotation type="highlight" color="#21439e" strokeWidth={0.01} iterations={1} show={true} animationDelay={800} animationDuration={1000} className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm Reed.
-            <br className="hidden lg:inline-block" />I love to build amazing
-            apps.
-          </h1>
+          </RoughNotation>
+          <RoughNotation type="underline" show={true} iterations={2} multiline={true} show={true} animationDelay={800} animationDuration={2000}  className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
+            I love to build amazing apps.
+          </RoughNotation>
           <p className="mb-8 leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
             laborum quasi, incidunt dolore iste nostrum cupiditate voluptas?
