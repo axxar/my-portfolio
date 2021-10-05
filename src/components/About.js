@@ -8,7 +8,7 @@ export default function About() {
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
           <p className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
             Hi, I'm&nbsp;
-            <RoughNotation type="highlight" color="#21439e" strokeWidth={0.01} iterations={1} padding={15} show={true} animationDelay={800} animationDuration={1000} >
+            <RoughNotation type="highlight" color="#0002c9" iterations={1} padding={[10, 10]} show={true} animationDelay={800} animationDuration={1000} >
               Akshar
             </RoughNotation><br/>
             I love to build amazing apps and sites.
@@ -35,7 +35,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="./coding.svg"
+            src="./miles-morales.jpg"
           />
         </div>
       </div>
