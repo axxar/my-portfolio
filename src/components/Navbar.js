@@ -30,10 +30,10 @@ const Navbar = () =>  {
           </Link>
         </nav>
         <RoughNotation type="circle" padding={5} color="#FFFFFF" iterations={3} show={true} animationDelay={800} animationDuration={1000} >
-          <a href="#contact" className="inline-flex items-center text-gray-400 bg-gray-800 border-0 py-1 px-3 text-base mt-4 md:mt-0 hover:text-white">
+          <Link to="contact" spy={true} smooth={true} offset={-50} duration={500}  className="inline-flex items-center text-gray-400 bg-gray-800 border-0 py-1 px-3 text-base mt-4 md:mt-0 hover:text-white">
             Hire Me
             <ArrowRightIcon className="w-4 h-4 ml-1" />
-          </a>
+          </Link>
         </RoughNotation>
       </div>
     </div>
